@@ -1,0 +1,329 @@
+.body{
+    background-color: #34495e;
+    font-family: sans-serif;
+}
+.logo{
+    width: 100px;
+}
+
+.nav-link{
+    color: white;
+}
+.nav-link:hover{
+    transition: 0.8s;
+    color: wheat;
+    background-color: rgba(255, 255, 255, 0.178);
+    border-radius: 25px;
+}
+#btn1{
+    border-radius: 25px;
+    
+}
+#btn1:hover{
+    transition: 0.8s;
+    color: #34495e;
+    background-color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#my_picture {
+    margin:auto;
+    display: block;
+    width: 220px;
+    height: 220px;
+    border: solid 4px #fff;
+    transition: 1.1s;
+}
+#my_picture:hover{
+    box-shadow: 1px 1px 100px white;
+}
+
+
+.my-name-{
+    font-family: 'Piedra', cursive;
+    color: white;
+    text-align: center;
+    font-size: 50px;
+}
+
+
+
+.my-name:hover{
+    color: wheat;
+}
+.my-ex{
+    color: white;
+    text-align: center;
+}
+.sm{
+    
+    text-align: center;
+    font-size: 30px;
+
+}
+.header-li{
+    padding: 22px;
+    color: white;
+    position: relative;
+    line-height: 100px;
+    margin: 0 16px;
+}
+.sm a::before, .sm a::after{
+    content: '';
+    position: absolute;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    transition: .4s linear;
+}
+.sm a:hover{
+    transform: scale(.8);
+    color: white;
+}
+.sm a:hover::before{
+    border-left: 4px solid;
+    border-right: 4px solid;
+    transform: skewX(20deg);
+    border-color: white;
+}
+.sm a:hover::after{
+    border-top: 4px solid;
+    border-bottom: 4px solid;
+    transform: skewY(-20deg);
+    border-color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.intro{
+    color: white;
+    text-align: center;
+}
+.introduction{
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    padding-left: 222px;
+    padding-right: 222px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.card1{
+    color: white;
+    height: 250px;
+    text-align: center;
+    transition: 0.8s;
+}
+.card1:hover{
+    color: black;
+}
+.card1::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 0%;
+    background: white;
+    z-index: -1;
+    transition: 0.8s;
+}
+.card1::after{
+    top: 0;
+    border-radius: 0 0 50% 50%;
+}
+.card1::before{
+    bottom: 0;
+    border-radius: 50% 50% 0 0;
+}
+
+.card1:hover::before{
+    height: 125%;
+}
+
+.bn{
+    border-bottom: 2px solid white;
+}
+
+
+
+
+
+
+
+
+
+.bkj{
+    border-bottom: 3px solid white;
+    border-radius: 25px;
+}
+
+
+
+
+
+
+.were{
+    color: white;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.flip-box {
+    background-color: transparent;
+    height: 200px;
+    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  }
+  
+  /* This container is needed to position the front and back side */
+  .flip-box-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  /* Do an horizontal flip when you move the mouse over the flip box container */
+  .flip-box:hover .flip-box-inner {
+    transform: rotateY(180deg);
+  }
+  
+  /* Position the front and back side */
+  .flip-box-front, .flip-box-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+  }
+  
+  /* Style the front side */
+  .flip-box-front {
+    background-color: none;
+  }
+  
+  /* Style the back side */
+  .flip-box-back {
+    background-color: #141c3a;
+    color: whitesmoke;
+    border-radius: 15px;
+    padding: 5px;
+    transform: rotateY(180deg);
+  }
+
+
+
+  .flipbtn{
+      background: none;
+      color: white;
+      padding: 12px;
+      border-radius: 25px;
+      border: 2px solid white;
+      transition: 0.8s;
+      
+  }
+  .flipbtn:hover{
+      background: white;
+      color: black;
+  }
+
+
+
+
+
+
+
+
+
+
+  
+
+  .ert{
+      text-align: center;
+  }
+
+  .as:hover{
+    box-shadow: 1px 1px 100px white;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .lop{
+      color: white;
+      text-align: center;
+  }
+  .mkj{
+      background: #191919;
+      padding: 50px;
+  }
+    
+  
